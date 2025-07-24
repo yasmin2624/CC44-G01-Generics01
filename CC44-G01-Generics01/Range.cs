@@ -26,9 +26,12 @@ namespace CC44_G01_Generics01
         }
 
         public double Length()
-        {
-            return Convert.ToDouble(Max) - Convert.ToDouble(Min);
-        }
+ {
+     double max = Convert.ToDouble(Max);
+     double min = Convert.ToDouble(Min);
+     return max - min;
+ }
+
 
     }
 }
